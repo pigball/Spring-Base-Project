@@ -19,12 +19,12 @@ public class M40BenefitController {
     }
 
     @PostMapping("/sickValidate")
-    public Map<String, Object> validate() {
+    public Map<String, Object> sickValidate() {
         return Collections.singletonMap("message", "Validate, Successfully");
     }
 
     @PostMapping("/sickSave")
-    public Map<String, Object> save() {
+    public Map<String, Object> sickSave() {
         return Collections.singletonMap("message", "Save, Successfully");
     }
 }
