@@ -3,7 +3,7 @@ package com.pn.springbaseproject.m40Benefit;
 import lombok.Data;
 
 @Data
-public class SickValiDateDTO {
+public class SickValidDateDTO {
     private Integer insurerId;
     private Boolean useGuarantee;
     private Integer sickAmountDay;
